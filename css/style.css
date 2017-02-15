@@ -1,0 +1,15 @@
+.weather-panel {
+    margin-top: 15px;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.conditions {
+    margin-top: 40px;
+}
+
+input, button {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="weatherApp">
+
+<head>
+  <meta charset="utf-8" />
+  <title>AngularJS Plunker</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+    <!-- vendor dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.8/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
+  <script src="https://code.angularjs.org/1.4.8/angular-resource.js"></script>
+  
+  <!-- app dependencies -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services/weather.js"></script>
+  <script src="scripts/controllers/cityCtrl.js"></script>
+  <script src="scripts/controllers/coordinatesCtrl.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div ng-view></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
